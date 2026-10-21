@@ -4,4 +4,4 @@ GWAS text files are tab-delimited with one variant per row. `chrom`: chromosome;
 
 RDS files are serialized Seurat objects. The candidate-gene script requires an RNA counts assay, `orig.ident` donor/sample identifiers, `Type` values Control/Treat, and `cell_type` annotations. The brain object is used for scPagwas rather than this UC-versus-control pseudobulk script. See `single_cell_object_inventory.csv` for inspected dimensions and metadata column names when available.
 
-Checksums identify the exact bytes deposited. Original filenames are retained inside the input archive because scripts and provenance records refer to them.
+Checksums identify the inspected local input files. The seven data files themselves are not included in this public code release; their original filenames are recorded to connect the scripts with input provenance.

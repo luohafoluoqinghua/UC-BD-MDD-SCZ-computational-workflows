@@ -3,7 +3,7 @@
 ## Included
 
 - 31 supplied scripts renamed by function; study labels configured for UC, BD, MDD and SCZ.
-- Four processed GWAS inputs and three processed single-cell objects in a separate archive; byte-level checksums.
+- Provenance records, data dictionaries and byte-level checksums for four inspected local GWAS inputs and three single-cell objects. The seven data files themselves are not included in the public release.
 - Actual candidate-gene R session record, reported software-version inventory, major-parameter notes and source mapping.
 
 ## Still to recover or reconcile

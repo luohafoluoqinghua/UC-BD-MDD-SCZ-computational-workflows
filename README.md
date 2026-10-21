@@ -1,12 +1,12 @@
-# UC and psychiatric disorders computational materials
+# Integrated Genetic and Single-Cell Analyses Reveal the Shared Genetic Architecture Between Ulcerative Colitis and Three Psychiatric Disorders
 
-Code and processed inputs accompanying **Integrated Genetic and Single-Cell Analyses Reveal the Shared Genetic Architecture Between Ulcerative Colitis and Three Psychiatric Disorders**.
+Analysis code and documentation accompanying the manuscript of the same title.
 
 Traits: ulcerative colitis (UC), bipolar disorder (BD), major depressive disorder (MDD), and schizophrenia (SCZ). Pairwise comparisons use UC as the target and BD, MDD, and SCZ as comparators.
 
 ## Contents and scope
 
-This version (0.1.0, 2026-10-21) contains 31 supplied R scripts with descriptive filenames, a software-version inventory, parameter documentation, and a checksum manifest for four processed GWAS tables and three Seurat objects. The scripts were configured for these traits and renamed during revision preparation. This is a documented code/input deposit, not a claim that every script reproduces the final manuscript without further configuration. The computational pipelines were not executed for this deposit.
+This version (0.1.0, 2026-10-21) contains 31 supplied R scripts with descriptive filenames, a software-version inventory, parameter documentation, and provenance/checksum records describing four processed GWAS tables and three Seurat objects. The seven data files themselves are not included in this public release. The scripts were configured for these traits and renamed during revision preparation. Further configuration and external resources are required for execution. The computational pipelines were not executed for this deposit.
 
 | Location | Analysis |
 |---|---|
@@ -19,7 +19,7 @@ This version (0.1.0, 2026-10-21) contains 31 supplied R scripts with descriptive
 
 ## Input data
 
-The separate `UC_BD_MDD_SCZ_processed_inputs.zip` contains the original seven input files without changing their contents. See `data_manifest.csv` for sizes, source accessions and SHA-256 hashes. The data archive is deposited separately from GitHub. Its publication location is recorded in `DATA_AVAILABILITY.md` when assigned.
+The seven processed input files (UC.txt, BD.txt, MDD.txt, SCZ.txt, GSE182270.rds, GSE214695.rds and GSE254569.rds) are not included in this GitHub repository or the accompanying Zenodo code snapshot. See `data_manifest.csv` for the sizes, source accessions and SHA-256 hashes of the inspected local inputs. These records document provenance and do not constitute a public deposit of the data files. See `DATA_AVAILABILITY.md` for the scope of this release.
 
 GWAS sources: UC ebi-a-GCST004133; BD ieu-b-5110; MDD ieu-b-102; SCZ ieu-b-5102 (IEU OpenGWAS). Single-cell sources: GEO GSE182270, GSE214695 and GSE254569. Upstream studies retain their original attribution and access/use conditions.
 
