@@ -1,0 +1,22 @@
+software,version,evidence_scope
+R,4.6.1,Candidate-gene validation session only
+Seurat,4.4.0,Candidate-gene validation session only
+SeuratObject,4.1.4,Candidate-gene validation session only
+Matrix,1.7-6,Candidate-gene validation session only
+edgeR,4.10.5,Candidate-gene validation session only
+limma,3.68.5,Candidate-gene validation session only
+Fast2TWAS,not recorded,Required by supplied wrappers; original environment not supplied
+LDSC,1.0.1,Reported in manuscript supplementary table; original runtime not independently verified
+GNOVA,1.0,Reported; script not in this release
+HDL,1.4.0,Reported; original runtime not independently verified
+LAVA,0.1.5,Reported; original runtime not independently verified
+QTLEnrich,v2,Reported; exact commit not supplied
+MAGMA,1.08,Reported via FUMA; runtime not independently verified
+FUMA,1.8.2,Reported; task export not supplied
+gsMap,1.73.7,Reported; original runtime not independently verified
+scPagwas,2.0.0,Reported; supplied script modifies a namespace function during the session
+eCAVIAR,2.2,Reported; original runtime not independently verified
+DAP-G,not recorded,Fine-mapping provenance requires confirmation
+fastENLOC,3.2,Reported; original runtime not independently verified
+PLACO,0.2.0,Reported; original runtime not independently verified
+pleioFDR,0da963c,Reported Git commit; runtime not independently verified

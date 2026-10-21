@@ -1,0 +1,9 @@
+*.rds
+*.RData
+*.zip
+*.gz
+*.mat
+.Rhistory
+.RData
+work/
+results/
